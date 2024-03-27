@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./image/mark 1111.png" />
+    <title>萬月樓日式懷石料理</title>
+    <link rel="stylesheet" href="./css/首頁.css" />
+    <style type="text/css">
+        
+    </style>
+</head>
+
+<body>
+
+    <div class="transition-overlay"></div>
+
+    <div class="content">
+
+
+        <header class="navbar">
+            <div class="logo">
+                <a href="./引導頁.html"><img src="./image/mark 1111.png" alt="" class="img1" /></a>
+                <p class="logoname">萬月樓</p>
+            </div>
+
+            <div>
+                <ul style="text-align: center;">
+                    <li><a href="./菜單.html" class="transition-link">菜單</a></li>
+                    <li><a href="./關於.html" class="transition-link">關於</a></li>
+                    <li><a href="./訂位.html" class="transition-link">線上訂位</a></li>
+                </ul>
+
+            </div>
+        </header>
+
+
+        <div class="reservation" style="margin-top: 300px;">
+            <h1>訂位須知 :</h1>
+        </div>
+
+        <div class="reservation">
+            <p>感謝您選擇我們的服務。為確保您有個順利的用餐體驗，請注意以下訂位須知：線上預訂需提前至少24小時完成，以確保我們能為您提供最佳服務。如有變動或取消需求，請提前以電話通知我們，以便為其他顧客騰出時間。為確保每位顧客的用餐權益，請於預約時間準時到達，超過預訂時間15分鐘未出現將可能取消預訂。感謝您的合作與理解，期待為您提供愉快的用餐體驗。</p>
+        </div>
+
+
+
+
+        <div class="form1">
+            <form id="myForm" action="mailto:test@cs.nthu.edu.tw" encType=text/plain method=post
+                action="javascript:;" onsubmit="myFunction(this)">
+                <p><b>訂位姓名：</b><br /><br /><input name="myname" id="nameInput" size=30 maxlength=20 style="border-radius: 5px;height: 20px; border:1px solid lightgray;" required></p>
+                <p><b>訂位人數：</b><br /><br /><input name="people" id="peopleInput" type="text" size=30 maxlength=2 style="border-radius: 5px;height: 20px; border:1px solid lightgray" required></p>
+                <p><b>訂位電話：</b><br /><br /><input name="people" id="peopleInput" type="text" size=30 maxlength=10 style="border-radius: 5px;height: 20px; border:1px solid lightgray" required></p>
+
+                <span><b>訂位日期：</b><br /><br /></span>
+                    <input type="date" id="rDate" style="width: 235px; border-radius: 5px;height: 20px; border:1px solid lightgray;" required><br /><br />
+
+                <span><b>訂位時段：</b><br /><br /></span>
+                    <select  style="width: 250px; border-radius: 5px;height: 30px; border:1px solid lightgray;">
+                        <option>午餐</option>
+                        <option>晚餐</option>
+                    </select><br /><br />
+                <span><b>訂位時間：</b><br /><br />
+                    <!-- <input name="time1" type=radio value="1100" checked >11:00 ~ 12:30
+                    <input name="time2" type=radio value="1230">12:30 ~ 14:00
+                    <input name="time3" type=radio value="1700">17:00 ~ 19:30
+                    <input name="time4" type=radio value="1930">19:30 ~ 21:00 -->
+                    <select  style="width: 250px; border-radius: 5px;height: 30px; border:1px solid lightgray;">
+                        <option>11:00 ~ 12:30</option>
+                        <option>12:30 ~ 14:00</option>
+                        <option>17:00 ~ 19:30</option>
+                        <option>19:30 ~ 21:00</option>
+                    </select>
+                </span>
+                <br /><br />
+                <p><input type="submit" style="background-color:blue;color: white; width: 120px;height: 30px;font-size: 15px;font-weight: bold; border:1px solid lightgray;border-radius: 10px;"> <input type="reset" style="width: 120px;height: 30px; font-size: 15px;font-weight: bold; border:1px solid lightgray;border-radius: 10px;">
+            </form>
+        </div>
+
+
+    </div>
+
+<hr>
+
+    
+
+
+
+
+<!-- <div class="footer">
+    <div class="information">
+        <h2 style="text-align: center;font-family: DFKai-sb;" id="ifo1"><a>店鋪資訊</a></h2>
+        <p class="informationp"><地址><br />台中市西區自立街95巷1號<br /><br /><訂位方式><br />來電:04-2378-1311<br /><br /><時間><br />10:00~14:00 17:00~21:00<br />周二固定公休</p>
+    </div>
+
+    <div class="googlemap">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d765.3998137063169!2d120.66918946579798!3d24.141005923393013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693d0ba89e07df%3A0x46dbaef638eb7ef6!2z6JCs5pyI5qiT5pel5byP5paZ55CG5bqX!5e0!3m2!1szh-TW!2stw!4v1701953784746!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+</div> -->
+
+
+<script>
+    // 获取当前日期
+    let today = new Date();
+  
+    // 加上30天
+    today.setDate(today.getDate() + 30);
+  
+    // 格式化日期为YYYY-MM-DD
+    let maxDate = today.toISOString().split('T')[0];
+  
+    // 设置最大日期
+    document.getElementById('rDate').max = maxDate;
+  
+    // 获取当前日期（不含时分秒）
+    let currentDate = new Date().toISOString().split('T')[0];
+  
+    // 设置最小日期为当前日期
+    document.getElementById('rDate').min = currentDate;
+  </script>
+<script src="./js/transition.js"></script>
+
+
+</body>
+</html>

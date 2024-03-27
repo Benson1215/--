@@ -1,0 +1,406 @@
+
+@media only screen and (max-width: 720px) {
+    .img2{
+        position: relative;
+        display:block; 
+        margin:auto;
+        margin-top: 200px;
+        max-width:100%;
+        height: auto;   
+    }
+    .information{
+        max-width: 100%;
+        height: auto;
+    }
+    .googlemap{
+        display: none
+    }
+    bbody{
+        max-width: 100%;
+        height: auto;
+    }
+    .ul{
+
+        max-width: 60%;
+        height: auto;
+    }
+    .li{
+        display: inline;
+        max-width: 100%;
+
+    }
+
+
+  }
+  
+
+
+@media only screen and (min-width: 1025px) {
+    .img2{
+        position: relative;
+        display:block; 
+        margin:auto;
+        margin-top: 200px;
+        width: 1000px;
+        height: 600px;   
+    }
+  }
+
+
+
+
+
+
+body{
+    background-color:white;
+
+
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:white;
+    z-index: 1000;
+  }
+
+
+.content {
+    position: relative;
+    z-index: 2;
+    /* visibility: hidden; */
+  }
+
+/* 過渡效果結束後顯示內容 */
+.transition-overlay.show-overlay + .content {
+    visibility: visible;
+  }
+  
+  /* 共用的過渡效果元素樣式 */
+.transition-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:white; /* 過渡效果的背景色 */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.8s ease, visibility 0.8s ease; /* 過渡效果的時間 */
+    z-index: 999;
+  }
+  
+
+.transition-overlay.show-overlay {
+    opacity: 1; 
+    visibility: visible;
+  }
+
+
+
+.logo{
+    /* outline: 1px solid black; */
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+  }
+
+a:hover{
+    color: black;
+    text-decoration:underline;
+    /* font-size: 22px; */
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:active{
+    color: black;
+    text-decoration: none;
+}
+
+.imgbox{
+    /* outline: 1px solid blue; */
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+  }
+
+
+.img1{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    display:block; 
+    margin:auto;
+}
+
+.img2{
+    position: relative;
+    display:block; 
+    margin:auto;
+    margin-top: 200px;
+    max-width: 100%;
+    height: auto;
+
+}
+
+
+#imgs{
+    position: relative;
+    display:block; 
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    width: 800px;
+    height: 500px;
+}
+
+.logoname{
+    position:relative;
+    text-align: center;
+    font-family: DFKai-sb;
+    font-size: 15px;   
+    font-weight: 400;
+    margin-top: 0;
+}
+
+ul{
+    /* outline: 1px solid pink; */
+    list-style: none;
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+
+}
+
+
+li{
+    font-family: DFKai-sb;
+    font-size: 20px;
+
+    margin: 5px;
+    padding: 10px;
+    
+}
+
+.burger-menu {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+
+.sectionImg{
+    max-width: 100%;
+}
+
+
+.section{
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 200px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Inter;
+    font-size: 20px;
+    margin-bottom: 100px;
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    margin-top: 300px;
+
+
+}
+
+iframe{
+    border-radius: 0px;
+    /* position: relative; */
+    margin: 0px;
+    /* float: left; */
+    width: 500px;
+    height: 300px;
+}
+
+.information{
+    border-radius: 0px;
+    /* float: left; */
+    /* background-color: rgb(245,150,170); */
+    background-color: rgba(255, 0, 0, 0.5);
+    /* position: relative; */
+    width: 500px;
+    height: 300px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.informationp{
+    position:relative;
+    text-align: center;
+    font-family: inter;
+    font-size: 16px;   
+    font-weight: bold;
+    margin-top: 0; 
+    color: black;
+}
+
+.section懷石{
+    font-family: DFKai-sb;
+    margin-top: 300px;
+    margin-bottom: 200px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px dotted black;
+    /* border-top: 1px dotted black; */
+}
+
+.section萬月樓{
+    font-family: DFKai-sb;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px dotted black;
+    border-top: 1px dotted black;
+}
+
+
+.sectionVideo{
+    margin-bottom: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.section1P{
+    font-size: 20px;
+}
+
+.section菜單{
+    display: block;
+    text-align: center;
+    max-width: 100%;
+    font-family: DFKai-sb;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+
+}
+
+.reservation{
+    /* outline: 1px solid black; */
+    font-family: Inter;
+    width: 50%;
+    display:flex;
+    margin: auto;
+    margin-top: 0px;
+    align-items: center;
+    border-top: 1px dotted black;
+
+}
+
+.form1{
+    width: 50%;
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius:10px ;
+    font-size: 18px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    /* margin-left: 200px;
+    margin-right: 200px; */
+    box-shadow: 2px 2px lightgray;
+   
+}
+
+input:hover {
+    background-color: lightgray;   
+}
+
+
+.containerV {
+    /* outline: 1px solid orange; */
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.video {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left: 50%;   
+    width: 60%;
+    height: 60%;
+}
+
+/* .footer2{
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.9);
+
+} */
+/* * {
+    margin: 0;
+    padding: 0;
+  } */
+
+
+
+
+
+/* 輪播css */
+
+.slideshow-container {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .slides img {
+    display: none;
+    width: 100%;
+  }
+
+  .slides img.active {
+    display: block;
+  }
+
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 16px;
+    color: gray;
+    font-weight: bold;
+    font-size: 40px;
+    z-index: 1;
+  }
+
+  .prev {
+    left: 0;
+  }
+
+  .next {
+    right: 0;
+  }
